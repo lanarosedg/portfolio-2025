@@ -1,7 +1,12 @@
 import Name from './Name.jsx';
 
 function App() {
-  <Name/>
+  return(
+    <>
+    
+      <Name/>
+    </>
+  );
 }
 
 export default App
