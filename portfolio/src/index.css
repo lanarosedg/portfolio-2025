@@ -1,7 +1,46 @@
 * {
   font-family: 'Poppins';
+  color: #070F2B;
+}
+
+.App {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 313px 353px 481px 293px;
+  grid-template-rows: 60px 228px 52px 41px 52px 100px 90px 481px 41px 289px 41px 365px 242px 72px;
+}
+
+/*      */ 
+/*      */ 
+/* LOGO */
+/*      */ 
+/*      */ 
+
+.moonIcon {
+  height: 30px;
+  width: 30px;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+}
+
+/*      */ 
+/*      */ 
+/* NAME */
+/*      */ 
+/*      */ 
+
+
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  grid-area: 2 / 2 / 2 / 2;
+  position: sticky;
+  top: 0;
 }
 
 .nameTitle {
@@ -11,4 +50,63 @@
 
 .location {
   font-size: 16px;
+  margin-top: -10%;
+}
+
+.role {
+  font-size: 16px;
+  margin-top: -2%;
+}
+ 
+/*       */ 
+/*       */ 
+/* EMAIL */
+/*       */ 
+/*       */ 
+
+.emailContainer {
+  display: flex;
+  flex-direction: center;
+  justify-content: left;
+  grid-area: 3 / 2 / 3 / 2;
+  position: sticky;
+}
+
+.emailButton {
+  width: 207px;
+  height: 39px;
+  font-size: 14px;
+  border-color: #070F2B;
+  border-style: solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*       */ 
+/*       */ 
+/* INTRO */
+/*       */ 
+/*       */ 
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  grid-area: 6 / 2 / 6 / 2;
+}
+ 
+/*         */ 
+/*         */ 
+/* CONTACT */
+/*         */ 
+/*         */ 
+
+.contactsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: top;
+  grid-area: 8 / 2 / 8 / 2;
+  gap: 70px;
 }

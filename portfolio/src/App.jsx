@@ -10,17 +10,17 @@ import Footer from './Footer.jsx';
 
 function App() {
   return(
-    <>
+    <div class="App">
       <Name/>
-      <Introduction/>
       <Email/>
+      <Introduction/>
       <Contacts/>
-      <Experience/>
+      {/* <Experience/>
       <TechStack/>
       <LifeOutside/>
       <Projects/>
-      <Footer/>
-    </>
+      <Footer/>  */}
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import view from './assets/light-mode/view.png'
 function LifeOutside() {
     return (
         <div className="lifeOutsideContainer">
-            <img src={view} alt="view" />
+            <img class="logo" src={view} alt="view" />
             <p className="lifeOutsideTitle">LIfe Outside Development</p>
             <p className="lifeOutsideText">
             When I’m not coding, I work with startups as a <br/>

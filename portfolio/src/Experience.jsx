@@ -2,7 +2,7 @@ import experience from './assets/light-mode/experience.png'
 function Experience() {
     return (
         <div className="experienceContainer">
-            <img src={experience} alt="experience" />
+            <img class="logo" src={experience} alt="experience" />
             <p className="experienceTitle">Experience</p>
 
             <p className="backEnd">

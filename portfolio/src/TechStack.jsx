@@ -20,34 +20,34 @@ import wix from './assets/common/wix.png'
 function TechStack() {
     return (
         <div className="techStackContainer">
-            <img src={code} alt="code" class="code" />
+            <img src={code} alt="code" id="code" class="logo"/>
             <p className="techStackTitle">Tech Stack</p>
 
             <div className="frontendContainer">
                 <p className="frontendTitle">Frontend</p>
 
                 <div className="reactContainer">
-                    <img src={react} alt="react" />
+                    <img src={react} alt="react" class="logo"/>
                     <p className="stackTitle">React.js</p>
                 </div>
 
                 <div className="htmlContainer">
-                    <img src={html} alt="html" />
+                    <img src={html} alt="html" class="logo"/>
                     <p className="stackTitle">HTML</p>
                 </div>
 
                 <div className="cssContainer">
-                    <img src={css} alt="css" />
+                    <img src={css} alt="css" class="logo"/>
                     <p className="stackTitle">CSS</p>
                 </div>
 
                 <div className="javascriptContainer">
-                    <img src={javascript} alt="javascript" />
+                    <img src={javascript} alt="javascript" class="logo"/>
                     <p className="stackTitle">JavaScript</p>
                 </div>
 
                 <div className="figmaContainer">
-                    <img src={figma} alt="figma" />
+                    <img src={figma} alt="figma" class="logo"/>
                     <p className="stackTitle">Figma</p>
                 </div>
             </div>
@@ -56,22 +56,22 @@ function TechStack() {
                 <p className="backendTitle">Backend</p>
 
                 <div className="javaContainer">
-                    <img src={java} alt="java" />
+                    <img src={java} alt="java" class="logo"/>
                     <p className="stackTitle">Java</p>
                 </div>
 
                 <div className="csharpContainer">
-                    <img src={csharp} alt="csharp" />
+                    <img src={csharp} alt="csharp" class="logo"/>
                     <p className="stackTitle">C#</p>
                 </div>
 
                 <div className="pythonContainer">
-                    <img src={python} alt="python" />
+                    <img src={python} alt="python" class="logo"/>
                     <p className="stackTitle">Python</p>
                 </div>
 
                 <div className="springBootContainer">
-                    <img src={springBoot} alt="springBoot" />
+                    <img src={springBoot} alt="springBoot" class="logo"/>
                     <p className="stackTitle">Spring Boot</p>
                 </div>
             </div>
@@ -80,12 +80,12 @@ function TechStack() {
                 <p className="qaTitle">QA Automation</p>
 
                 <div className="seleniumContainer">
-                    <img src={selenium} alt="selenium" />
+                    <img src={selenium} alt="selenium" class="logo"/>
                     <p className="stackTitle">Selenium</p>
                 </div>
 
                 <div className="cucumberContainer">
-                    <img src={cucumber} alt="cucumber" />
+                    <img src={cucumber} alt="cucumber" class="logo"/>
                     <p className="stackTitle">Cucumber</p>
                 </div>
             </div>
@@ -94,12 +94,12 @@ function TechStack() {
                 <p className="cmsTitle">Content Management System</p>
 
                 <div className="wordpressContainer">
-                    <img src={wordpress} alt="wordpress" />
+                    <img src={wordpress} alt="wordpress" class="logo"/>
                     <p className="stackTitle">Wordpress</p>
                 </div>
 
                 <div className="wixContainer">
-                    <img src={wix} alt="wix" />
+                    <img src={wix} alt="wix" class="logo"/>
                     <p className="stackTitle">Wix</p>
                 </div>
             </div>
